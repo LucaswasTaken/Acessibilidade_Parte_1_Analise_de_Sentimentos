@@ -6,3 +6,5 @@ Este repositório apresenta algoritmos para análise de sentimentos em textos em
  - raiva.
  
 As implementações fazem uso do google Collab, para aumentar a acessibilidade em qualquer dispositivo.
+
+O banco de dados utilizado é um subconjunto daquele apresentado no artigo https://medium.com/@alegeorgelustosa/an%C3%A1lise-de-sentimentos-em-python-2a7d04a836e0, transcrito em um arquivo ".csv". 
