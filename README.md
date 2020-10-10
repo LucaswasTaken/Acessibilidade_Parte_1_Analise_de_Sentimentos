@@ -1,5 +1,5 @@
 # Parte 1: Analise_de_Sentimentos
-Este repositório apresenta dois algoritmos para análise de sentimentos em textos em qualquer linguagem (inicialmente pensado para o português), classificando os sentimentos em:
+Este repositório apresenta três algoritmos para análise de sentimentos, inicialmente pensado para o português, classificando os sentimentos em:
 
  - felicidade;
  - tristeza;
@@ -7,7 +7,7 @@ Este repositório apresenta dois algoritmos para análise de sentimentos em text
 
 O banco de dados utilizado é um subconjunto daquele apresentado no artigo https://medium.com/@alegeorgelustosa/an%C3%A1lise-de-sentimentos-em-python-2a7d04a836e0, transcrito em um arquivo ".csv".
 
-São apresentadas três implementações.
+São apresentadas três implementações:
 
 A primeira bem simples, utilizando um classificador SVM com kernel linear e representação vetorial dos textos através do TF-IDF.
 
