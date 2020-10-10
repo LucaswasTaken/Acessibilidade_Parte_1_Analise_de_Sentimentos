@@ -5,12 +5,18 @@ Este repositório apresenta dois algoritmos para análise de sentimentos em text
  - tristeza;
  - raiva.
 
-São apresentadas duas implementações. 
+O banco de dados utilizado é um subconjunto daquele apresentado no artigo https://medium.com/@alegeorgelustosa/an%C3%A1lise-de-sentimentos-em-python-2a7d04a836e0, transcrito em um arquivo ".csv".
 
-Uma utilizando o Google bert, ferramenta considerada o estado da arte para processamento de linguagem natural junto ao GPT-3 (que infelizmente não tem código aberto igual ao Bert). 
+São apresentadas três implementações.
 
-A segunda estratégia faz uso de uma rede recorrente baseada na arquitetura LSTM. A rede é bem mais simples, porém o problema a se tratar também é simples. O uso do Bert se dá apenas para ilustrar o estado da arte da literatura.
+A primeira bem simples, utilizando um classificador SVM com kernel linear e representação vetorial dos textos através do TF-IDF.
 
-As implementações fazem uso de Jupyter notebooks e do Google Collab, para aumentar a acessibilidade em qualquer dispositivo, e pode ser acessada pelos cadernos contidos no repositório, ou através do link: https://colab.research.google.com/drive/1OH-A8_CvvUnmockaxeXVUTuuI-32zGIF?usp=sharing 
+A segunda estratégia faz uso de uma rede recorrente baseada na arquitetura LSTM.
 
-O banco de dados utilizado é um subconjunto daquele apresentado no artigo https://medium.com/@alegeorgelustosa/an%C3%A1lise-de-sentimentos-em-python-2a7d04a836e0, transcrito em um arquivo ".csv". 
+E por fim uma estratégia utilizando o Google bert, ferramenta considerada o estado da arte para processamento de linguagem natural junto ao GPT-3 (que infelizmente não tem código aberto igual ao Bert).  O uso do Bert se dá apenas para ilustrar o estado da arte da literatura, uma vez que o banco de dados utilizado é bastante singelo, impossibilitando visualizar o pleno potencial do bert, se tratando de um canhão para matar uma mosca.
+
+O comparativo entre as estratégias pode ser visto tanto nas implementações quanto no artigo do medium mostrando como utilizar essas ferramentas para análise de textos. Esse artigo faz parte de um artigo de quatro partes com o objetivo de servir como introdução, minha principalmente, a estratégias e métodos voltados a acessibilidade.
+
+As implementações fazem uso de Jupyter notebook e do Google Collab, para aumentar a acessibilidade em qualquer dispositivo, e pode ser acessada pelo caderno contidos no repositório, ou através do link: https://colab.research.google.com/drive/1OH-A8_CvvUnmockaxeXVUTuuI-32zGIF?usp=sharing 
+
+ 
