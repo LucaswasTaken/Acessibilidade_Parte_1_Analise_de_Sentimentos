@@ -1,4 +1,4 @@
-# Bert Analise_de_Sentimentos
+# Parte 1: Analise_de_Sentimentos
 Este repositório apresenta dois algoritmos para análise de sentimentos em textos em qualquer linguagem (inicialmente pensado para o português), classificando os sentimentos em:
 
  - felicidade;
