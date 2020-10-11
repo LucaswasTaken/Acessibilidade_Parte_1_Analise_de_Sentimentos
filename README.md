@@ -1,4 +1,5 @@
 # Parte 1: Analise_de_Sentimentos
+![alt text](https://zenodo.org/badge/302881353.svg)
 Este repositório apresenta três algoritmos para análise de sentimentos, inicialmente pensado para o português, classificando os sentimentos em:
 
  - felicidade/alegria;
