@@ -1,6 +1,8 @@
 # Parte 1: Analise_de_Sentimentos
 ![alt text](https://zenodo.org/badge/302881353.svg)
 
+O código principal em Pytho nse encontra na pasta "/scr", e os métodos extras e treinamento dos classificadores se encontram no caderno Jupyter.
+
 Este repositório apresenta três algoritmos para análise de sentimentos, inicialmente pensado para o português, classificando os sentimentos em:
 
  - felicidade/alegria;
